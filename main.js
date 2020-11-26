@@ -45,9 +45,141 @@ while (counter < 5) {
     output += ' ';
     counter += 1;
 }
-
 output += '*';
+console.log(output);
 
+//
+counter = 0;
+output = '';
+
+while (counter < 4) {
+    output += ' ';
+    counter += 1;
+}
+output += '**';
+console.log(output);
+
+//
+counter = 0;
+output = '';
+
+while (counter < 3) {
+    output += ' ';
+    counter += 1;
+}
+output += '***';
+console.log(output);
+
+
+console.log('-------------');
+console.log('TASK:');
+console.log('*');
+console.log('*');
+console.log('*');
+
+console.log('OUTPUT:');
+counter = 0;
+output = '*';
+
+while (counter < 3) {
+    console.log(output);
+    counter +=  1;
+}
+
+console.log('-------------');
+console.log('TASK:');
+console.log('*');
+console.log('**');
+console.log('***');
+
+console.log('OUTPUT:');
+
+counter = 0;
+output = '';
+
+while (counter < 3) {
+    output += '*'
+    console.log(output);
+    counter +=  1;
+}
+
+
+console.log('-------------');
+console.log('TASK:');
+console.log('*');
+console.log('**');
+console.log('***');
+console.log('****');
+console.log('*****');
+
+console.log('OUTPUT:');
+
+counter = 0;
+output = '';
+
+while (counter < 5) {
+    output += '*';
+    console.log(output);
+    counter += 1;
+}
+
+
+
+
+console.log('-------------');
+console.log('TASK:');
+console.log('  *');
+console.log(' **');
+console.log('***');
+
+console.log('OUTPUT:');
+
+counter = 1;
+let iterationAmount = 5;
+output = '';
+
+
+while (counter <= iterationAmount) {
+    
+    let subCounter = 1;
+    let spaces = '';
+
+    while (subCounter <= iterationAmount-counter) {
+        spaces += ' ';
+        subCounter += 1;
+    }
+    output += '*';
+    console.log(spaces + output);
+    counter += 1;
+}
+
+let newCounter = 4
+
+while (newCounter >= 0) {
+    console.log(newCounter);
+    newCounter-=1
+}
+
+
+output = '';
+counter = 4;
+
+
+while (counter >= 0) {
+    
+    let subCounter = 1;
+    let spaces = '';
+
+    while (subCounter <= counter) {
+        spaces += ' ';
+        subCounter += 1;
+    }
+    output += '*';
+    console.log(spaces + output);
+    counter -= 1;
+}
+
+/* 
 
 console.log(output);
 
@@ -57,5 +189,8 @@ console.log('   *****');
 console.log('  *******');
 console.log(' *********');
 console.log('***********');
-
-
+console.log(' *********');
+console.log('  *******');
+console.log('   *****');
+console.log('    ***');
+console.log('     *'); */
